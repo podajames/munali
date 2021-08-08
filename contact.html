@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munali</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    
+
+    
+
+</head>
+<body>
+   <section class="sub-header">
+       
+       <nav >
+           <a href="index.html"><img src="images/heyy.png" ></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="schools.html">SCHOOLS</a></li>
+                <li><a href="sites.html">SITES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+           </div>
+           <i class="fa fa-bars"onclick="showMenu()"></i>
+       </nav>
+      <h1>CONTACT US</h1> 
+   </section>
+
+   <!-- ----contact us---- -->
+   <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30774.457301858794!2d28.290696056540742!3d-15.38692651554768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19408b3721a920bd%3A0x579546ccc8588d78!2sOlympia%20Park%2C%20Lusaka!5e0!3m2!1sen!2szm!4v1628428572303!5m2!1sen!2szm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+   </section>
+   <section class="contact-us"> 
+       <div class="row">
+           <div class="contact-col">
+               <div>
+                <i class="fa fa-home">
+                    <h5>ABC Road, ABC Building</h5>
+                    <p>Roma,Lusaka ZM </p>
+                </i>
+               </div>
+            
+               <div>
+                <i class="fa fa-phone">
+                    <h5>+260965161919</h5>
+                    <p>Monday to saturday, 7AM to 6PM </p>
+                </i>
+               </div>
+               <div>
+                <i class="fa fa-envelope-o">
+                    <h5>jamespoda16@gmail.com</h5>
+                    <p>Email Us </p>
+                </i>
+               </div>
+           </div>'
+           <div class="contact-col">
+               <form action="form.php" method="post">
+                <input type="text" name="name" placeholder="Eneter Your Name">
+                <input type="email" name="email" placeholder="Eneter Your Email">
+                <input type="text" name="subject" placeholder="Eneter Subject">
+                <textarea rows="8" name="subject" placeholder="" required></textarea>
+                
+               </form>
+               <button type="submit" class="hero-btn red-btn">Send Message</button>
+               
+           </div>
+       </div>
+
+   </section>
+   
+   <!-- ----Footer----- -->
+   <section class="footer">
+       <h4>ABOUT JAMES</h4>
+       <p>James Poda was born may 24th in 1994, 
+        He is a IT Support Technician at Ison BPO and a freelencer at night! <br> Expecties in the
+        following=> Network admin, Sys Admin, Ethical Hacking(web pentest/net pentest),
+        Pragramming(python,next js, react, react native, Vanila JS, .NET, R, Sql,mangodb and mariadb) </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+
+   </section>
+<!-- ------------------java for toggle menu ----> -->
+   <script>
+       var navLinks =document.getElementById("navLinks");
+       function showMenu(){
+           navLinks.style.right ="0"
+       }
+       function hideMenu(){
+           navLinks.style.right ="-200px"
+       }
+   </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munali</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    
+
+    
+
+</head>
+<body>
+   <section class="sub-header">
+       
+       <nav >
+           <a href="index.html"><img src="images/heyy.png" ></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="schools.html">SCHOOLS</a></li>
+                <li><a href="sites.html">SITES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+           </div>
+           <i class="fa fa-bars"onclick="showMenu()"></i>
+       </nav>
+      <h1>ABOUT US</h1> 
+   </section>
+
+   <!-- ----About us content ---- -->
+   <section class="about-us">
+       <div class="row">
+           <div class="about-col">
+               <h1>We are the most developed however we have flaws</h1>
+               <p>WASTE management still remains one of the biggest challenges facing most urban constituencies countrywide.
+                Munali Constituency is not an exception. This problem has been compounded by the dependence on government.
+                unplanned settlements within the constituency.</p>
+                <a href="" class="hero-btn red-btn">Find More</a>
+           </div>
+           <div class="about-col">
+               <img src="images/about8.jpg" >
+           </div>
+       </div>
+
+   </section>
+
+   <!-- ----Footer----- -->
+   <section class="footer">
+       <h4>ABOUT JAMES</h4>
+       <p>James Poda was born may 24th in 1994, 
+        He is a IT Support Technician at Ison BPO and a freelencer at night! <br> Expecties in the
+        following=> Network admin, Sys Admin, Ethical Hacking(web pentest/net pentest),
+        Pragramming(python,next js, react, react native, Vanila JS, .NET, R, Sql,mangodb and mariadb) </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+
+   </section>
+<!-- ------------------java for toggle menu ----> -->
+   <script>
+       var navLinks =document.getElementById("navLinks");
+       function showMenu(){
+           navLinks.style.right ="0"
+       }
+       function hideMenu(){
+           navLinks.style.right ="-200px"
+       }
+   </script>
+</body>
+</html>
